@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日常查询与对照 – 500万彩票网</title>
+    <style>
+        /* 基础重置与极简基调 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f7f6f3;
+            font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2.4rem 1.2rem 3.2rem;
+        }
+
+        .page {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        /* 横幅 —— 杂志式衬线标题组 */
+        .hero {
+            margin-bottom: 3.2rem;
+            padding-top: 1.2rem;
+        }
+
+        .hero__label {
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #8f8b80;
+            border-bottom: 1px solid #d6d2c9;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero__main {
+            font-size: 2.6rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+            color: #2a2822;
+        }
+
+        .hero__sub {
+            font-size: 1.05rem;
+            color: #6c685d;
+            margin-top: 0.8rem;
+            font-style: normal;
+            border-left: 2px solid #c0b6a6;
+            padding-left: 1rem;
+        }
+
+        /* 正文段落 */
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 2.2rem;
+        }
+
+        .section {
+            border-bottom: 1px solid #e3dfd7;
+            padding-bottom: 1.8rem;
+        }
+
+        .section:last-of-type {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .section__title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #3f3b33;
+            margin-bottom: 0.9rem;
+        }
+
+        .section__text {
+            font-size: 0.96rem;
+            color: #3a3730;
+            margin-bottom: 1rem;
+        }
+
+        .section__text a {
+            color: #3f3b33;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #b5ab9a;
+            transition: color 0.2s, text-decoration-color 0.2s;
+        }
+
+        .section__text a:hover {
+            color: #1a1814;
+            text-decoration-color: #1a1814;
+        }
+
+        .section__text:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 小标注 / 引用细节 */
+        .note {
+            font-size: 0.82rem;
+            color: #8f8a7e;
+            margin-top: 0.3rem;
+        }
+
+        /* 页尾访问提示 —— 克制、句子式 */
+        .trailer {
+            margin-top: 3rem;
+            padding-top: 1.6rem;
+            border-top: 1px solid #d6d2c9;
+            font-size: 0.9rem;
+            color: #5a564c;
+        }
+
+        .trailer a {
+            color: #3f3b33;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #b5ab9a;
+        }
+
+        .trailer a:hover {
+            color: #1a1814;
+            text-decoration-color: #1a1814;
+        }
+
+        /* 响应式微调 */
+        @media (max-width: 480px) {
+            body {
+                padding: 1.6rem 0.8rem 2.4rem;
+            }
+
+            .hero__main {
+                font-size: 2rem;
+            }
+
+            .hero__sub {
+                font-size: 0.95rem;
+                padding-left: 0.7rem;
+            }
+
+            .section__title {
+                font-size: 1.05rem;
+            }
+
+            .section__text {
+                font-size: 0.92rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            body {
+                padding: 3.6rem 2rem 4rem;
+            }
+
+            .hero__main {
+                font-size: 3rem;
+            }
+        }
+
+        /* 极少量装饰 */
+        .divider-dot {
+            display: inline-block;
+            width: 4px;
+            height: 4px;
+            background: #c0b6a6;
+            border-radius: 50%;
+            margin: 0 0.6rem 0 0.3rem;
+            vertical-align: middle;
+        }
+
+        .small-caps {
+            font-variant: small-caps;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- 杂志式横幅 -->
+    <header class="hero">
+        <div class="hero__label">数据手册 · 日常查询</div>
+        <h1 class="hero__main">500万彩票网</h1>
+        <p class="hero__sub">对照·索引·延伸阅读</p>
+    </header>
+
+    <!-- 三段自然介绍 -->
+    <div class="content">
+
+        <!-- 第一段：日常查询场景 -->
+        <section class="section">
+            <h2 class="section__title">查询与比照</h2>
+            <p class="section__text">
+                对许多习惯用数据辅助判断的人来说，<a href="https://cai-500.com">500万彩票网</a>
+                是一处可以安静查阅的索引站点。不论是号码走势、冷热分布还是近期频次，
+                页面上的数字陈列往往能提供一种相对客观的参照。比起单凭印象或零星截图，
+                这里更适合在闲暇时逐期翻看，慢慢建立自己的观察框架。
+            </p>
+            <p class="section__text note">
+                不需要注册，也不需要频繁刷新，打开即读，关掉即止。
+            </p>
+        </section>
+
+        <!-- 第二段：对照与摘录习惯 -->
+        <section class="section">
+            <h2 class="section__title">对照与摘录</h2>
+            <p class="section__text">
+                很多人会把多个来源的数据并排比较，这时候一份静态、条目清晰的记录就很重要。
+                在 <a href="https://cai-500.com">500万彩票网</a> 上，
+                不同期数的开奖结果以简洁的表格呈现，方便直接摘取或与手边笔记对照。
+                没有推送、没有弹窗，信息的获取节奏完全由读者自己控制。
+            </p>
+            <p class="section__text">
+                如果你也在慢慢积累自己的数据档案，不妨把它当作一个随时可翻阅的参考页。
+            </p>
+        </section>
+
+        <!-- 第三段：延伸阅读与背景观察 -->
+        <section class="section">
+            <h2 class="section__title">延伸与背景</h2>
+            <p class="section__text">
+                数字本身是沉默的，但排列在一起时会产生微妙的脉络感。通过浏览不同彩种、不同时间段的记录，
+                可以注意到一些重复出现的模式或异常值——不是作为投注依据，而是作为一种概率现象的观察。
+                <span class="divider-dot"></span>
+                这种不带目的的浏览，反而让人更容易保持清醒的判断。
+            </p>
+            <p class="section__text">
+                偶尔也会翻翻老数据，看看几年前同一日期的号码分布，算是冷门的小趣味。
+            </p>
+        </section>
+    </div>
+
+    <!-- 页尾访问提示 —— 自然嵌入链接，符合“从日常查询、对照和延伸阅读的角度展开” -->
+    <footer class="trailer">
+        <p>
+            如果你也习惯在安静的环境里独自查阅数据，可以直接打开
+            <a href="https://cai-500.com">500万彩票网</a>，
+            那里已经按照彩种和期数整理好了页面，省去自己搜索的功夫。
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.82rem; color: #9a958a;">
+            · 无需登录 · 界面干净 · 适合长期参考
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>
